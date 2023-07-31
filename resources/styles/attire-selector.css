@@ -142,7 +142,7 @@
 
 
 .bubble-trigger-gallery {
-    position: absolute;
+    position: sticky;
     top: 12vh;
     left: 5vw;
     padding: 10px;
@@ -157,7 +157,7 @@
   }
   
   .bubble-gallery {
-    position: absolute;
+    position: sticky;
     top: 9vh;
     left: 5.6vw;
     display: none;
