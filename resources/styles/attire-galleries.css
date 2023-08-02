@@ -56,7 +56,7 @@
 .thumbnails-container {
   margin-top: 2vh;
   display: flex;
-  justify-content: flex-start; /* Align thumbnails to the left */
+  justify-content: center; /* Align thumbnails to the left */
   align-items: center;
   overflow-x: auto; /* Add horizontal scroll when necessary */
   min-width: 100%; /* Ensure thumbnails don't clip, and the scroll will appear if necessary */
