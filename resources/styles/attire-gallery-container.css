@@ -1,5 +1,5 @@
 .gallery-container {
-    width: 70vw;
+    width: 48vw;
     margin: auto;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -55,7 +55,6 @@ p{
     .gallery-container {
         width: 71vw;
         margin: auto;
-        overflow: hidden;
         background: rgba(255, 255, 255, 0.25);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(3.1px);
