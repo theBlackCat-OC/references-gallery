@@ -48,6 +48,19 @@
     margin-left: 40vw;
 }
 
+.gdrive-button{
+    transition: transform 0.5s;
+}
+
+.gdrive-button:hover {
+   transform: scale(0.9);
+   z-index: 1;
+}
+  
+.gdrive-button:not(:hover) {
+   transform: scale(0.8);
+}
+
 @media (max-width: 600px) {
     .section-title-two-short{
         margin-top: 3vh;

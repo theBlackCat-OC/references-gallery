@@ -35,13 +35,12 @@
 <body class="loading-animation">
     <!-- ~~~~ Comm Works Title ~~~~ -->
     <div class="gallery-title-two glassbox-25 border-radius-8px">
-      <a href="https://drive.google.com/drive/folders/1K-FQ2PfoNG9M1YeGzKJPGrv5uKqa649W?usp=drive_link" target="_blank"><img src="https://cdn.theblack.cat/resources/thank-you-flaticons/fullbody.png" width="23" height="23" class="img-inverter">
-        <span class="productsans-regular onepointfive-em description-text-black cursor-pointer" id="commworks-topBar">Body Reference Gallery - "the Black Cat"</span></div>
-      </a>
-  </div>
+      <img src="https://cdn.theblack.cat/resources/thank-you-flaticons/fullbody.png" width="23" height="23" class="img-inverter">
+        <span class="productsans-regular onepointfive-em description-text-black cursor-default">Body Reference Gallery - "the Black Cat"</span>
+    </div>
     <!-- ~~~~ Quick Google Drive Download ~~~~ -->
-    <div class="gallery-title-two glassbox-10 border-radius-5px">
-      <a href="https://drive.google.com/drive/folders/1K-FQ2PfoNG9M1YeGzKJPGrv5uKqa649W?usp=drive_link" target="_blank"><img src="https://cdn.theblack.cat/resources/thank-you-flaticons/colordrive.svg" width="20" height="20" class="vertical-align-0dot7vh marginright-1percent">
+    <div class="gallery-title-two glassbox-10 border-radius-5px cursor-pointer gdrive-button" id="gdrive-folder" title="Quick Access: Google Drive with all the References">
+      <img src="https://cdn.theblack.cat/resources/thank-you-flaticons/colordrive.svg" width="20" height="20" class="vertical-align-0dot7vh marginright-1percent">
       <span class="productsans-regular description-text-black">Quick Access: <span class="productsans-light">Google Drive</span> with all the references.</span>
       </a>
     </div>
@@ -79,6 +78,11 @@
  <script src="resources/scripts/bubble-begone.js"></script>
  <script src="resources/scripts/hideGoToTopBTN.js"></script>
  <script src="https://cdn.theblack.cat/resources/scripts/body-gallery.js"></script>
+ <script>
+    document.getElementById('gdrive-folder').onclick = function() {
+    window.open('https://drive.google.com/drive/folders/1LRI7Zku6y1N4-MUlaNA_8CzhBCGlR83n?usp=drive_link', '_blank');
+  };
+</script>
 <!-- ~~~~ --> 
 </body>
 </html>
