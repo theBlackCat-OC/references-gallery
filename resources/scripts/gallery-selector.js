@@ -121,7 +121,7 @@ const galleries = [
   {
     name: 'Dancer Socks',
     url_id: 'dancer-socks',
-    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1nwOkBs3IwD1krj7MbEIp5YPN7OkX8XTV?usp=drive_link" target="_blank"><img src="https://cdn.theblack.cat/resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
+    download_icon: '&nbsp<a href="https://drive.google.com/drive/folders/1jbA3lcdilwKq-EY6pzFGF3cA5NAQ3cMh?usp=drive_link" target="_blank"><img src="https://cdn.theblack.cat/resources/thank-you-flaticons/colordrive.svg" width="22" height="22" class="selector-drive" style="right:1px";>&nbsp;</a>',  
     images: [
       { src: 'https://cdn.theblack.cat/gallery/attires/accessories/dancer-socks/1.png', tags: 'Footwear' },
       { src: 'https://cdn.theblack.cat/gallery/attires/accessories/dancer-socks/2.png', tags: 'Footwear' },
